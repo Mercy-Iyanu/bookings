@@ -12,3 +12,7 @@
   padding: 0px;
   background: #000;
 }
+
+.property-image {
+  border-radius: 5px;
+}
