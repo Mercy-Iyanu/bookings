@@ -6,3 +6,9 @@
 /* .new-adventure {
   background-image: url('/bookings/public/images/newAdv.png');
 } */
+
+.offer-card {
+  height: 18px;
+  padding: 0px;
+  background: #000;
+}

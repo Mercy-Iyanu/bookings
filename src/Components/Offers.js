@@ -10,8 +10,8 @@ export default function Offers() {
             </div>
             <table>
                 <tr>
-                    <td>
-                        <div className='card'>
+                    <td className='col-md-6'>
+                        <div className='card offer-card'>
                             <div className='card-body'>
                                 <table className='table'>
                                     <tr>
@@ -28,8 +28,8 @@ export default function Offers() {
                             </div>
                         </div>
                     </td>
-                    <td>
-                        <div className='card new-adventure'>
+                    <td className='col-md-6'>
+                        <div className='card offer-card new-adventure'>
                             <div className='card-body'>
                                 <p className='h4 card-title'>New year, new adventures</p>
                                 <p className='card-text'>Save 15% or more when you book and stay before April 1, 2024</p>
@@ -40,10 +40,6 @@ export default function Offers() {
                 </tr>
 
             </table>
-
-
         </div>
-        </div >
-        </div >
     )
 }  
