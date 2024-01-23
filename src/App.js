@@ -4,6 +4,10 @@ import Offers from './Components/Offers';
 import Property from './Components/Property';
 import Destination from './Components/Destination';
 import Explore from './Components/Explore';
+import Planner from './Components/Planner';
+import Inspiration from './Components/Inspiration';
+import Unique from './Components/Unique';
+import Guest from './Components/Guest';
 
 function App() {
   return (
@@ -12,6 +16,10 @@ function App() {
       <Property />
       <Destination />
       <Explore />
+      <Planner />
+      <Inspiration />
+      <Unique />
+      <Guest />
     </>
   );
 }
