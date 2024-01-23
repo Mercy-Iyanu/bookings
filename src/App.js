@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Offers from './Components/Offers';
 import Property from './Components/Property';
 import Destination from './Components/Destination';
+import Explore from './Components/Explore';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Offers />
       <Property />
       <Destination />
+      <Explore />
     </>
   );
 }
