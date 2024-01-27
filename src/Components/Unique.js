@@ -7,6 +7,18 @@ export default function Unique() {
                 <p className='h3'>Stay at our top unique properties</p>
                 <p className='h6'>From castles and villas to boats and igloos, we have it all</p>
             </div>
+            <div classname='row'>
+                <div classname='col-md-3'>
+                    <div className='card'>
+                        <img src={process.env.PUBLIC_URL + './images/ikeja.jpg'} alt='Ikeja-picture' className='img-fluid ' />
+                        <div className='card-body'>
+                            <p className='h4 card-title'>Gyttja Västergårds</p>
+                            <p className='card-text'>Finland, Lillandet</p>
+                            <p className='card-text'> <span>9.3</span>Wonderful · 207 reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <table className='table'>
                 <tr>
                     <td>
@@ -34,7 +46,7 @@ export default function Unique() {
                             <img src={process.env.PUBLIC_URL + './images/ikeja.jpg'} alt='Ikeja-picture' className='img-fluid ' />
                             <div className='card-body'>
                                 <p className='h4 card-title'>Harbor View</p>
-                                <p className='card-text'>United Kingdom, Isle Of Skye</p>
+                                2                     <p className='card-text'>United Kingdom, Isle Of Skye</p>
                                 <p className='card-text'> <span>9.0</span>Wonderful · 144 reviews</p>
                             </div>
                         </div>
