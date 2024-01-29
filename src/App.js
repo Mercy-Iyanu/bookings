@@ -11,7 +11,7 @@ import Guest from './Components/Guest';
 
 function App() {
   return (
-    <>
+    <body>
       <Offers />
       <Property />
       <Destination />
@@ -20,7 +20,7 @@ function App() {
       <Inspiration />
       <Unique />
       <Guest />
-    </>
+    </body>
   );
 }
 
