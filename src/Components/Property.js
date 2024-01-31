@@ -1,12 +1,11 @@
 import React from 'react';
 import '../App.css';
+import SectionHeading from './SectionHeading';
 
 export default function Property() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Browse by property type</p>
-            </div>
+            <SectionHeading text='Browse by property type' />
             <table className='table'>
                 <tr>
                     <td>

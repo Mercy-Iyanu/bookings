@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Planner() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Quick and easy trip planner</p>
-                <p className='h6'>Pick a vibe and explore the top destinations in Nigeria</p>
-            </div>
+            <SectionHeading text='Quick and easy trip planner' />
+            <SectionSummary text='Pick a vibe and explore the top destinations in Nigeria' />
             <table className='table'>
                 <tr>
                     <td>

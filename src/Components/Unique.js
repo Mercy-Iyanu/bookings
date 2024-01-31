@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Unique() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Stay at our top unique properties</p>
-                <p className='h6'>From castles and villas to boats and igloos, we have it all</p>
-            </div>
+            <SectionHeading />
+            <SectionSummary />
             <table className='table'>
                 <tr>
                     <td>

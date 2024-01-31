@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Explore() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Explore Nigeria</p>
-                <p className='h6'>These popular destinations have a lot to offer</p>
-            </div>
+            <SectionHeading text='Explore Nigeria' />
+            <SectionSummary text='These popular destinations have a lot to offer' />
             <table className='table'>
                 <tr>
                     <td>

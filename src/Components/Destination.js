@@ -1,12 +1,12 @@
 import React from 'react';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Destination() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Trending destinations</p>
-                <p className='h6'>Most popular choices for travelers from Nigeria</p>
-            </div>
+            <SectionHeading text='Trending destinations' />
+            <SectionSummary text='Most popular choices for travelers from Nigeria' />
             <table className='table'>
                 <tr>
                     <td>

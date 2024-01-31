@@ -8,6 +8,7 @@ import Planner from './Components/Planner';
 import Inspiration from './Components/Inspiration';
 import Unique from './Components/Unique';
 import Guest from './Components/Guest';
+import DestinationsLove from './Components/DestinationsLove';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Inspiration />
       <Unique />
       <Guest />
+      <DestinationsLove />
     </body>
   );
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Offers() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Offers</p>
-                <p className='h6'>Promotions, deals, and special offers for you</p>
-            </div>
+            <SectionHeading text='Offers' />
+            <SectionSummary text='Promotions, deals, and special offers for you' />
             <table>
                 <tr>
                     <td className='col-md-6'>

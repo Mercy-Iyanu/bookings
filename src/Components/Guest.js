@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import SectionHeading from './SectionHeading';
+import SectionSummary from './SectionSummary';
 
 export default function Guest() {
     return (
         <div>
-            <div className='section-heading'>
-                <p className='h3'>Homes guests love</p>
-                <p className='h6'>Discover homes</p>
-            </div>
+            <SectionHeading text='Homes guests love' />
+            <SectionSummary text='Discover homes' />
             <table className='table'>
                 <tr>
                     <td>
