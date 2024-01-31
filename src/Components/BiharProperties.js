@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
 
-export default function BiharProperties() {
+export default function BiharProperties({ text }) {
     return (
         <div>
-            <p>764 properties</p>
+            <p>{text || '764 properties'}</p>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
 
-export default function BiharList() {
+export default function BiharList({ text }) {
     return (
         <div>
-            <p>Bihar</p>
+            <a href='#'>{text || 'Bihar'}</a>
         </div>
     )
 }
