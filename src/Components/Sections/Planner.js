@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css';
-import SectionHeading from './SectionHeading';
-import SectionSummary from './SectionSummary';
+import SectionHeading from '../SectionHeading';
+import SectionSummary from '../SectionSummary';
 
 export default function Planner() {
     return (

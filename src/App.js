@@ -1,14 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Offers from './Components/Offers';
-import Property from './Components/Property';
-import Destination from './Components/Destination';
-import Explore from './Components/Explore';
-import Planner from './Components/Planner';
-import Inspiration from './Components/Inspiration';
-import Unique from './Components/Unique';
-import Guest from './Components/Guest';
-import DestinationsLove from './Components/DestinationsLove';
+import Offers from './Components/Sections/Offers';
+import Property from './Components/Sections/Property';
+import Destination from './Components/Sections/Destination';
+import Explore from './Components/Sections/Explore';
+import Planner from './Components/Sections/Planner';
+import Inspiration from './Components/Sections/Inspiration';
+import Unique from './Components/Sections/Unique';
+import Guest from './Components/Sections/Guest';
+import DestinationsLove from './Components/Sections/DestinationsLove';
+import SaveTime from './Components/Sections/SaveTime';
+import Footer from './Components/Sections/Footer';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Unique />
       <Guest />
       <DestinationsLove />
+      <SaveTime />
+      <Footer />
     </body>
   );
 }

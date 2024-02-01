@@ -1,6 +1,5 @@
 import React from 'react';
-import '../App.css';
-import SectionHeading from './SectionHeading';
+import SectionHeading from '../SectionHeading';
 
 export default function Property() {
     return (
