@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styled from 'styled-components';
 import Offers from './Components/Sections/Offers';
 import Property from './Components/Sections/Property';
 import Destination from './Components/Sections/Destination';

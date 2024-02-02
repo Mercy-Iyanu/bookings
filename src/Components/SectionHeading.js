@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledLink = styled.div`
+
+`
 
 export default function SectionHeading({ text }) {
     return (
-        <div>
+        <StyledLink>
             <p className='h3'>{text || 'Stay at our top unique properties'}</p>
-        </div>
+        </StyledLink>
     )
 }
